@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="icon" href="./assets/img/logo1.svg" type="image/svg+xml">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script src="./assets/scripts/DbGames.js" defer></script>
+    <script src="./assets/scripts/index.js" defer></script>
+    <title>Steam - Pagina inicial</title>
+  </head>
+  <body>
+    <div class="api">
+      <div class="home-bg">
+        <div class="overlay bg"></div>
+        <video
+          class="video"
+          autoplay
+          loop
+          muted
+          src="./assets/video/God_of_war.mp4"
+        ></video>
+      </div>
+      <div class="main">
+        <nav>
+          <a class="logo" href="#HOME"
+            ><img src="assets/img/logo.svg" alt="Logo steam"
+          /></a>
+          <div class="mobile-menu">
+            <a href="#home"></a>
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul>
+            <li>
+              <div class="search-box">
+                <input
+                  class="search-text"
+                  type="text"
+                  name=""
+                  placeholder="Escreva o que procura"
+                />
+                <a href="#"><i class="ph-magnifying-glass"></i></a>
+              </div>
+            </li>
+            <li><a href="#home">LOJA</a></li>
+            <li><a href="#">COMUNIDADE</a></li>
+            <li><a href="#">SOBRE</a></li>
+            <li><a href="#">SUPORTE</a></li>
+            <li>
+              <a href="#"><i class="ph-download-simple"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="ph-user"></i></a>
+            </li>
+          </ul>
+        </nav>
+        <section id="home">
+          <div class="game-showcase">
+            <div class="tags">
+              <p class="tag">Ação</p>
+              <p class="tag">RPG</p>
+            </div>
+            <div class="extra">
+              <span class="stars">
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-fill"></i>
+              </span>
+              <p>Santa Monica Studio</p>
+            </div>
+            <h2>God of War Ragnarök</h2>
+            <p class="description">
+              God of War Ragnarök é um jogo eletrônico de ação-aventura desenvolvido pela Santa Monica Studio e publicado pela Sony Interactive Entertainment. Foi lançado em 9 de novembro de 2022 para PlayStation 4 e PlayStation 5.
+            </p>
+            <button>Mais detalhes</button>
+            <div class="imageArt"></div>
+          </div>
+          <div class="highlights">
+            <h1>Destaques</h1>
+            <ul></ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
