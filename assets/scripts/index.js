@@ -1,8 +1,5 @@
 const HlGameList = document.querySelector('.highlights ul');
 const gameShowcase = document.querySelector('.game-showcase');
-
-// HL = highlights //
-// Criar cada card highlights //
 function createCardGame(game) {
   const Hlcard = document.createElement('li');
 
